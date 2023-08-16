@@ -9,6 +9,10 @@ import Foundation
 
 struct Constants {
     
+    struct Paths {
+        static let baseURL = "users"
+    }
+    
     struct URLs {
         
         static let baseURL = "https://jsonplaceholder.typicode.com"
