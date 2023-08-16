@@ -15,7 +15,10 @@ class UserListViewModel: ObservableObject {
     
     func downloadUsers () async {
         do {
-            let users = try await webService.download("https://")
+            let users = try await webService.download(Constants.URLs.userExtension)
+            DispatchQueue.main.async {
+                self.userList = users.map(UserViewModel.init)
+            }
         } catch {
             print(error)
         }

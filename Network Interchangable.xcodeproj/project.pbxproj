@@ -14,6 +14,7 @@
 		12FEF2842A8D37EC00CCFDFC /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEF2832A8D37EC00CCFDFC /* UserModel.swift */; };
 		12FEF2862A8D380300CCFDFC /* Webservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEF2852A8D380300CCFDFC /* Webservice.swift */; };
 		12FEF2892A8D3B9E00CCFDFC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEF2882A8D3B9E00CCFDFC /* UserViewModel.swift */; };
+		12FEF28C2A8D3DA100CCFDFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEF28B2A8D3DA100CCFDFC /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		12FEF2832A8D37EC00CCFDFC /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		12FEF2852A8D380300CCFDFC /* Webservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Webservice.swift; sourceTree = "<group>"; };
 		12FEF2882A8D3B9E00CCFDFC /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		12FEF28B2A8D3DA100CCFDFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		12FEF2712A8D37A600CCFDFC /* Network Interchangable */ = {
 			isa = PBXGroup;
 			children = (
+				12FEF28A2A8D3D8E00CCFDFC /* Constants */,
 				12FEF2872A8D387200CCFDFC /* ViewModel */,
 				12FEF2822A8D37DE00CCFDFC /* Model */,
 				12FEF2812A8D37D700CCFDFC /* Service */,
@@ -98,6 +101,14 @@
 				12FEF2882A8D3B9E00CCFDFC /* UserViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		12FEF28A2A8D3D8E00CCFDFC /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				12FEF28B2A8D3DA100CCFDFC /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				12FEF2862A8D380300CCFDFC /* Webservice.swift in Sources */,
 				12FEF2892A8D3B9E00CCFDFC /* UserViewModel.swift in Sources */,
 				12FEF2732A8D37A600CCFDFC /* Network_InterchangableApp.swift in Sources */,
+				12FEF28C2A8D3DA100CCFDFC /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
