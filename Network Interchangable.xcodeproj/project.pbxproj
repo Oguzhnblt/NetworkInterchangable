@@ -16,6 +16,7 @@
 		12FEF2892A8D3B9E00CCFDFC /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEF2882A8D3B9E00CCFDFC /* UserViewModel.swift */; };
 		12FEF28C2A8D3DA100CCFDFC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEF28B2A8D3DA100CCFDFC /* Constants.swift */; };
 		12FEF28E2A8D533A00CCFDFC /* users.json in Resources */ = {isa = PBXBuildFile; fileRef = 12FEF28D2A8D533A00CCFDFC /* users.json */; };
+		12FEF2902A8D536A00CCFDFC /* Localservice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12FEF28F2A8D536A00CCFDFC /* Localservice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		12FEF2882A8D3B9E00CCFDFC /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		12FEF28B2A8D3DA100CCFDFC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		12FEF28D2A8D533A00CCFDFC /* users.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = users.json; sourceTree = "<group>"; };
+		12FEF28F2A8D536A00CCFDFC /* Localservice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localservice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				12FEF2852A8D380300CCFDFC /* Webservice.swift */,
+				12FEF28F2A8D536A00CCFDFC /* Localservice.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12FEF2902A8D536A00CCFDFC /* Localservice.swift in Sources */,
 				12FEF2752A8D37A600CCFDFC /* ContentView.swift in Sources */,
 				12FEF2842A8D37EC00CCFDFC /* UserModel.swift in Sources */,
 				12FEF2862A8D380300CCFDFC /* Webservice.swift in Sources */,
